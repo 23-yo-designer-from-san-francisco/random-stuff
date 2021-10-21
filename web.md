@@ -1,13 +1,16 @@
 Add brotli support to Nginx
 
-Step 2 – Install Required Dependencies
+Step 1 – Install Required Dependencies
 Before starting, you will need to install some dependencies required to compile Nginx in your system. You can install all of them with the following command:
 
+```bash
 apt-get install dpkg-dev build-essential gnupg2 git gcc cmake libpcre3 libpcre3-dev zlib1g zlib1g-
 dev openssl libssl-dev curl unzip -y
+```
+
 Once all the packages are installed, you can proceed to the next step.
 
-Step 3 – Add Nginx Repository
+Step 2 – Add Nginx Repository
 Next, you will need to add the Nginx official repository to download the latest version of the Nginx source.
 
 First, import the Nginx GPG key with the following command:
@@ -32,7 +35,7 @@ apt-get update -y
 ```
 Once your repository is updated, you can proceed to the next step.
 
-Step 4 – Install Nginx with Brotli Support
+Step 3 – Install Nginx with Brotli Support
 First, download the latest version of the Nginx source with the following command:
 
 ```bash
@@ -82,7 +85,7 @@ Next, install the Nginx by running the both *.deb file:
 dpkg -i /usr/local/src/*.deb
 ```
 
-Step 5 – Configure Nginx to Use Brotli
+Step 4 – Configure Nginx to Use Brotli
 Next, you will need to configure Nginx to use Brotli module. You can do it by editing the Nginx main configuration file:
 
 ```bash
