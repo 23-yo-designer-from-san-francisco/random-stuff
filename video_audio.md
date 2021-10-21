@@ -1,7 +1,7 @@
 Encode AV1 video
 
 ```bash
-ffmpeg -i YOUR-FILE-HERE.mp4 -pix_fmt yuv420p
+ffmpeg -i YOUR-FILE-HERE.mp4 -pix_fmt yuv420p OUTFILE.y4m
 
 ```
 
