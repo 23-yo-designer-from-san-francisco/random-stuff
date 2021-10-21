@@ -110,8 +110,10 @@ nginx -t
 You should get the following output:
 `
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-nginx: configuration file /etc/nginx/nginx.conf test is successful
-Next, start the Nginx service using the following command:`
+
+nginx: configuration file /etc/nginx/nginx.conf test is successful`
+
+Next, start the Nginx service using the following command:
 
 ```bash
 systemctl start nginx
