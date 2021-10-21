@@ -80,20 +80,15 @@ You should see both files in the following output:
 
 `/nginx_1.18.0-2~focal_amd64.deb nginx-dbg_1.18.0-2~focal_amd64.deb`
 Next, install the Nginx by running the both *.deb file:
-
 ```bash
 dpkg -i /usr/local/src/*.deb
 ```
-
 Step 4 – Configure Nginx to Use Brotli
 Next, you will need to configure Nginx to use Brotli module. You can do it by editing the Nginx main configuration file:
-
 ```bash
 nano /etc/nginx/nginx.conf
 ```
-
 Add the following lines inside the http { section:
-
 ```bash
 brotli on;
 brotli_comp_level 6;
@@ -103,18 +98,14 @@ application/xml application/xml+rss text/javascript image/x-icon
 image/vnd.microsoft.icon image/bmp image/svg+xml;`
 ```
 Save and close the file, then verify the Nginx for any syntax errors:
-
 ```bash
 nginx -t
 ```
 You should get the following output:
 `
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-
 nginx: configuration file /etc/nginx/nginx.conf test is successful`
-
 Next, start the Nginx service using the following command:
-
 ```bash
 systemctl start nginx
 ```
