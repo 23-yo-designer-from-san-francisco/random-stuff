@@ -69,7 +69,7 @@ Save and close the file, then compile and build the nginx package with the follo
 dpkg-buildpackage -b -uc -us
 ```
 
-The above command will generate Nginx .deb files inside /usr/local/src directory.
+The above command will generate Nginx .deb files inside `/usr/local/src` directory.
 
 You can list them with the following command:
 
