@@ -1,4 +1,5 @@
 Add brotli support to Nginx
+
 [source](https://www.atlantic.net/dedicated-server-hosting/how-to-install-brotli-module-for-nginx-on-ubuntu-20-04/)
 
 Step 1 – Install Required Dependencies
