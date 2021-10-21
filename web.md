@@ -94,12 +94,14 @@ nano /etc/nginx/nginx.conf
 
 Add the following lines inside the http { section:
 
-`brotli on;
+```bash
+brotli on;
 brotli_comp_level 6;
 brotli_static on;
 brotli_types text/plain text/css application/javascript application/x-javascript text/xml 
 application/xml application/xml+rss text/javascript image/x-icon 
 image/vnd.microsoft.icon image/bmp image/svg+xml;`
+```
 Save and close the file, then verify the Nginx for any syntax errors:
 
 ```bash
