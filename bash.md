@@ -24,3 +24,9 @@ all: $(patsubst %.m4a,%.opus,$(wildcard *.m4a))
 %.opus: %.m4a
 	ffmpeg -i $< -f wav - | opusenc - $@
 ```
+
+Count files
+
+```bash
+find . -name "*.m4a" -printf '.' | wc -m
+```
