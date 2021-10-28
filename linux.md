@@ -7,8 +7,9 @@ bindfs -u www-data -g www-data /root/2021_2_LostPointer_front /usr/share/nginx/f
 
 Mount remote folder using SSH on macOS
 
+[osxfuse](https://github.com/osxfuse/osxfuse/releases)
 ```bash
-brew install osxfuse sshfs
+brew install sshfs
 ```
 ```bash
 sudo sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_ed25519 user@host:/remotefolder/ /localfolder
