@@ -1,4 +1,4 @@
-Run precompiled on Android (Clang 13, -O3, Termux)
+Run precompiled on Android AArch64 [Clang 13, -O3, Termux]
 ```bash
 curl https://raw.githubusercontent.com/23-yo-designer-from-san-francisco/stream-binaries/master/stream -o stream && chmod +x stream && ./stream
 ```
