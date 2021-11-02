@@ -1,3 +1,8 @@
+Compile and run (debian, ubuntu, termux, ...)
+```bash
+wget https://www.cs.virginia.edu/stream/FTP/Code/stream.c && gcc -fopenmp -D_OPENMP stream.c -O3 -o stream -DNTIMES=100 && ./stream
+```
+
 Compile on macOS
 
 ```bash
