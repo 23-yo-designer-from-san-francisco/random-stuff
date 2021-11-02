@@ -1,6 +1,6 @@
 Run precompiled on Android (Clang 13, -O3, Termux)
 ```bash
-curl https://github.com/23-yo-designer-from-san-francisco/stream-binaries/raw/master/stream -o stream && chmod +x stream && ./stream
+curl https://raw.githubusercontent.com/23-yo-designer-from-san-francisco/stream-binaries/master/stream -o stream && chmod +x stream && ./stream
 ```
 
 Compile and run (debian, ubuntu, termux, ...)
