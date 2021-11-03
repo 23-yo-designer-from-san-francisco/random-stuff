@@ -1,6 +1,11 @@
-Run precompiled on Android AArch64 [Clang 13, -O3, Termux]
+Run precompiled on Android AArch64 [Clang 13, -O3, OpenMP, Termux]
 ```bash
-curl https://raw.githubusercontent.com/23-yo-designer-from-san-francisco/stream-binaries/master/stream -o stream && chmod +x stream && ./stream
+curl https://raw.githubusercontent.com/23-yo-designer-from-san-francisco/stream-binaries/master/android-arm64/stream -o stream && chmod +x stream && ./stream
+```
+
+Run precompiled on macOS Apple Silicon [Clang 13, -O3]
+```bash
+curl https://raw.githubusercontent.com/23-yo-designer-from-san-francisco/stream-binaries/master/macos-arm64/stream -o stream && chmod +x stream && ./stream
 ```
 
 Compile and run (debian, ubuntu, termux, ...)
