@@ -10,7 +10,7 @@ Next, you will need to add the Nginx official repository to download the latest 
 
 First, import the Nginx GPG key with the following command:
 ```bash
-curl -L https://nginx.org/keys/nginx_signing.key | apt-key add -
+curl -L https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
 ```
 Next, add the Nginx repository with the following command:
 ```bash
