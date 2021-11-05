@@ -1,3 +1,5 @@
+[Source](https://www.atlantic.net/dedicated-server-hosting/how-to-install-brotli-module-for-nginx-on-ubuntu-20-04/)
+
 Before starting, you will need to install some dependencies required to compile Nginx in your system. You can install all of them with the following command:
 ```bash
 sudo 
