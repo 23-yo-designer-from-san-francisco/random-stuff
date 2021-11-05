@@ -35,7 +35,7 @@ cd /usr/local/src && sudo apt-get source nginx
 ```
 Next, install the required dependencies to build Nginx:
 ```bash
-apt-get build-dep nginx -y
+sudo apt-get build-dep nginx -y
 ```
 Next, download the latest version of Brotli from the Git repository using the following command:
 ```bash
