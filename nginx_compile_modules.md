@@ -72,7 +72,7 @@ Next, you will need to configure Nginx to use Brotli module. You can do it by ed
 ```bash
 sudo vim /etc/nginx/nginx.conf
 ```
-Add the following lines inside the http { section:
+Add the following lines inside the `http {` section:
 ```
 brotli on;
 brotli_comp_level 6;
