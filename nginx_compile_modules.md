@@ -48,7 +48,9 @@ sudo vim debian/rules
 ```
 Find the `config.env.nginx` and `config.env.nginx_debug` section and add the following line within `./configure` line:
 
-`--add-module=/usr/local/src/ngx_brotli`
+```
+--add-module=/usr/local/src/ngx_brotli
+```
 Save and close the file, then compile and build the nginx package with the following command:
 ```bash
 dpkg-buildpackage -b -uc -us
