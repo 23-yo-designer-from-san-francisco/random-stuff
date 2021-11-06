@@ -30,3 +30,11 @@ Count files
 ```bash
 find . -name "*.m4a" -printf '.' | wc -m
 ```
+
+Multiple rename
+```bash
+# Rename all *.txt to *.text
+for f in *.txt; do 
+    mv -- "$f" "${f%.txt}.text"
+done
+```
