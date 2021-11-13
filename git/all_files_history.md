@@ -5,3 +5,9 @@
 ```bash
 git log --pretty=format: --name-only --diff-filter=A | sort -u
 ```
+
+File log
+
+```bash
+git log --follow -- FILENAME
+```
