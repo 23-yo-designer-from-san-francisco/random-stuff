@@ -10,7 +10,7 @@ diskutil eraseDisk MS-DOS "WIN10" GPT /dev/diskX
 Mount the ISO
 
 ```zsh
-hdiutil mount ~/Downloads/Win10_1903_V1_English_x64.iso
+hdiutil mount <PATH_TO_ISO>
 ```
 
 Copy all files excluding install.wim
