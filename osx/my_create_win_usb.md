@@ -15,7 +15,7 @@ diskutil list | grep -A2 "disk image"
 
 Create partitions:
 ```zsh
-sudo diskutil partitionDisk disk6 GPT FAT32 BOOT 200M ExFat Windows 5.7G
+sudo diskutil partitionDisk disk5 GPT FAT32 BOOT 200M ExFat "CCCOMA_X64FRE_EN-US_DV9"⁩ 5.7G
 ```
 
 >Copy boot files from Rufus UEFI iso to partition 1
