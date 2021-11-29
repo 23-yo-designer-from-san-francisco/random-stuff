@@ -12,6 +12,12 @@ echo "Type B percent: $((typebd * 10)) %"
 
 Install `mmc-tools`
 
+Get the complete output
 ```bash
 sudo mmc extcsd read /dev/mmcblk0
+```
+
+Or just lifetime info
+```bash
+mmc extcsd read /dev/mmcblk0 | grep -A 1 LIFE
 ```
