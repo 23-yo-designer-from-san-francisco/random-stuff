@@ -10,7 +10,7 @@ echo "Type A percent: $((typead * 10)) %"
 echo "Type B percent: $((typebd * 10)) %"
 ```
 
-Install `mmc-tools`
+Install `mmc-utils`
 
 Get the complete output
 ```bash
