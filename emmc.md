@@ -17,7 +17,7 @@ Get the complete output
 sudo mmc extcsd read /dev/mmcblk0
 ```
 
-Or just lifetime info
+Or just [lifetime](https://developer.toradex.com/knowledge-base/emmc-linux#Health_Status_as_Defined_in_the_eMMC_50_Standard_Onwards) info
 ```bash
 sudo mmc extcsd read /dev/mmcblk0 | grep -A 1 LIFE
 ```
