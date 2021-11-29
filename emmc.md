@@ -19,5 +19,5 @@ sudo mmc extcsd read /dev/mmcblk0
 
 Or just lifetime info
 ```bash
-mmc extcsd read /dev/mmcblk0 | grep -A 1 LIFE
+sudo mmc extcsd read /dev/mmcblk0 | grep -A 1 LIFE
 ```
